@@ -1,0 +1,275 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1e1e1e;
+}
+.body{
+    background: #1e1e1e !important;
+}
+
+#nav-menu {
+    display: block;
+    position:fixed;
+    margin-top: 110px;
+    margin-left: 10px;
+    height: 75%;
+    width: 14%;
+    border: 2px solid #3e3e3e;
+}
+
+.logo-plan {
+    display: block;
+    margin-left: 35px;
+    margin-top: 27px;
+    width: 150px;
+}
+
+.first-h1 {
+    display: block;
+    margin-left: 40px;
+    margin-top: 35px;
+    color: #939598;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 130px;
+}
+
+.first-seta {
+    display: block;
+    margin-left: 190px;
+    margin-top: 20px;
+    width: 12px;
+}
+
+.first-ul {
+    display: block;
+    color: white;
+    font-size: 16px;
+    margin-left: 35px;
+    margin-top: 50px;
+    list-style: none;
+    z-index: 3;
+}
+
+.first-item-list {
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    z-index: 2;
+    color: white;
+}
+
+a:hover {
+    color: #939598 !important;
+    text-decoration: none !important;
+}
+
+.second-ul {
+    display: block;
+    color: #333333;
+    font-size: 57px;
+    font-weight: 700;
+    margin-top: -352px;
+    margin-left: 35px;
+    list-style: none;
+}
+
+.second-item-list {
+    display: block;
+    z-index: 1;
+    letter-spacing: 0.7px;
+    margin-bottom: -22px;
+}
+
+.p-numb {
+    color: #333333;
+    display: flex;
+    margin-top: 40px;
+    z-index: 1;
+    letter-spacing: 0.7px;
+    font-size: 78px;
+    font-weight: 700;
+    
+}
+
+.second-p-section {
+    display: block;
+    color: white;
+    margin-top: -107px;
+    font-size: 14px;
+}
+
+.third-p-section {
+    display: block;
+    color: #939598;
+    font-size: 33px;
+    margin-top: -18px;
+}
+
+.h1-section {
+    color: #939598;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.fourth-p-section {
+    color: #939598;
+    margin-top: 12px;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+}
+
+.fifth-p-section {
+    color: white;
+    font-size: 12px;
+    max-width: 550px;
+    margin-top: 12px;
+}
+
+.card-text {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 0.9px;
+    line-height: 25.8px;
+    min-width: 200px;
+    padding-right: 25px;
+    border: none;
+}
+
+.img-control {
+    max-width: 50px;
+    margin-top: 95px;
+}
+
+.card-text-control {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    line-height: 28.8px;
+}
+
+.card-text-contact {
+    color: #939598;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    max-width: 290px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.second-seta{
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+    margin-top: -27px;
+    cursor: pointer;
+}
+
+.p-blog {
+    display: flex;
+    color: #939598;
+    letter-spacing: 0.7px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: -63px;
+    padding-left: 15px;
+}
+
+.third-seta {
+    display: flex;
+    cursor: pointer;
+    margin-left: 521px;
+    margin-top: -30px;
+    padding-left: 15px;
+}
+
+.card {
+    border: none !important;
+    background-color: #1e1e1e !important;
+}
+
+.card-text-cases {
+    color: #1e1e1e;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-title-h5 {
+    font-size: 19px;
+    min-width: 220px;
+}
+
+.text-muted-more {
+    font-size: 10px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.last-p-section {
+    color: white;
+    font-size: 10px;
+    margin-top: -10px;
+    letter-spacing: 0.7px;
+    line-height: 22.8px;
+    min-width: 550px;
+}
+
+
+.imput-info {
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+
+.imput-info-2 {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+
+input {
+    border: 2px solid #3e3e3e;
+    height: 30px;
+    color: white;
+}
+
+.input-name {
+    min-width: 416px;
+    margin-bottom: 10px;
+}
+
+.imput-info-2 {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.imput-contact {
+    display: inline;
+    width: 205px;
+}
+
+.input-mens {
+    min-width: 416px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.text-muted-send {
+    font-size: 10px;
+    color: darkgray;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
